@@ -15,7 +15,7 @@ The six functions below come from Anton Korinek, "Generative AI for Economic Res
 5. [Data analysis]({{ "/tool/analysis/" | relative_url }}): creating figures, extracting data from text, reformatting data, classifying and scoring text, and simulating human subjects.
 6. [Mathematical derivations]({{ "/tool/math/" | relative_url }}): setting up models, deriving equations, and explaining models.
 
-Each of these uses is a variable cost: one prompt per task. [Infrastructure]({{ "/infrastructure/" | relative_url }}) covers the fixed costs.
+Each of these uses is a variable cost: one prompt per task. [Infrastructure]({{ "/infrastructure/data/" | relative_url }}) covers the fixed costs.
 
 ## Readings
 

@@ -1636,3 +1636,6 @@ html[data-signed-in] [data-protected-link]::after { display:none; }
   .exposure-table td { display:grid; grid-template-columns:90px minmax(0,1fr); gap:12px; border:0; padding:4px 0; font-size:14px; }
   .exposure-table td::before { content:attr(data-label); color:var(--muted); font-size:12px; }
 }
+
+/* ---- Research site only: sub-menu items have no "Week N" line, so center them in the top-bar row. ---- */
+@media (min-width:820px) { .topbar-main > .subnav-top { padding-top:0 !important; } .topbar-main > .subnav-top ul { height:100%; align-items:center; } }
