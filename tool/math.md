@@ -8,7 +8,7 @@ permalink: /tool/math/
 
 Math: derivations and checking proofs.
 
-[Korinek (2023): the six research uses]({{ "/tool/ideation/#readings" | relative_url }}).
+[The six functions, after Korinek (2023)]({{ "/tool/overview/" | relative_url }}).
 
 ## Readings
 
