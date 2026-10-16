@@ -8,9 +8,6 @@ permalink: /topic/economic-implications/
 
 Study how AI adoption changes behavior, markets, and welfare.
 
-## Example
-
-{% include readings.html %}
 
 ## Academic Research
 

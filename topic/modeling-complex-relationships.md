@@ -8,6 +8,3 @@ permalink: /topic/modeling-complex-relationships/
 
 Use AI to uncover relationships that conventional models miss.
 
-## Example
-
-{% include readings.html %}
