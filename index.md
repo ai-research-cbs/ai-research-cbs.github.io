@@ -8,10 +8,10 @@ heading: Research in the Age of AI
 ## Three Questions
 
 ### [AI as a Tool]({{ '/tool/' | relative_url }})
-Does AI change how I do research?
+How does AI change how I do research?
 
 ### [AI as a Topic]({{ '/topic/' | relative_url }})
-Does AI change what I research?
+How does AI change what I research?
 
 ### [AI as a Substitute]({{ '/substitute/' | relative_url }})
 Does AI change whether I do research?
