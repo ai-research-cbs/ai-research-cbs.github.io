@@ -1,0 +1,4 @@
+{% assign current_section = site.data.sections | where: 'slug', page.section | first %}
+{% if current_section.pages.size > 0 %}
+<nav class="subnav {{ include.where }}" aria-label="{{ current_section.title }} pages"><ul>{% for subpage in current_section.pages %}{% capture suburl %}/{{ current_section.slug }}/{{ subpage.slug }}/{% endcapture %}<li><a href="{{ suburl | relative_url }}"{% if page.slug == subpage.slug %} aria-current="page"{% endif %}>{{ subpage.title }}</a></li>{% endfor %}</ul></nav>
+{% elsif include.where == 'subnav-top' %}<div class="subnav subnav-top" aria-hidden="true"></div>{% endif %}

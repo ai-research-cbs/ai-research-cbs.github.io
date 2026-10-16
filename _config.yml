@@ -1,0 +1,19 @@
+title: Research in the Age of AI
+description: AI as a tool, a topic, and a substitute for research. A companion site for researchers and PhD students.
+url: https://ai-research-cbs.github.io
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+kramdown:
+  input: GFM
+  smart_quotes: [apos, apos, quot, quot]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LEARN.md
+  - scripts
+  - requirements-test.txt
+  - vendor
+  - .bundle
+  - evidence

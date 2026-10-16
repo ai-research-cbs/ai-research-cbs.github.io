@@ -1,0 +1,3 @@
+{% assign page_readings = site.data.readings | where: 'section', page.section | where: 'page', page.slug | sort: 'year' %}
+{% if include.group %}{% assign page_readings = page_readings | where: 'group', include.group %}{% else %}{% assign page_readings = page_readings | where_exp: 'reading', 'reading.group == nil' %}{% endif %}
+{% if page_readings.size > 0 %}<ul class="material-list">{% for reading in page_readings %}{% include material-item.html m=reading %}{% endfor %}</ul>{% endif %}
