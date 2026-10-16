@@ -15,9 +15,9 @@ def rows(name):
 EXPECTED = [
     ('Home', 'home', []),
     ('AI as a Tool', 'tool', ['Overview', 'Ideation', 'Writing', 'Background', 'Coding', 'Analysis', 'Math']),
-    ('AI as a Topic', 'topic', ['Information Extraction', 'Economic Implications', 'Modeling Complex Relationships', 'Benchmarking Human Decisions', 'Intellectual Transfer']),
-    ('AI as a Substitute', 'substitute', ['Narrative', 'Exposure', 'What Should We Do?']),
-    ('Infrastructure', 'infrastructure', ['Data', 'Code', 'Taste']),
+    ('AI as a Topic', 'topic', ['Overview', 'Information Extraction', 'Economic Implications', 'Modeling Complex Relationships', 'Benchmarking Human Decisions', 'Intellectual Transfer']),
+    ('AI as a Substitute', 'substitute', ['Overview', 'Narrative', 'Exposure', 'What Should We Do?']),
+    ('Infrastructure', 'infrastructure', ['Overview', 'Data', 'Code', 'Taste']),
 ]
 
 
