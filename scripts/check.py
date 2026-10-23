@@ -69,7 +69,7 @@ def check():
             else:
                 assert (ROOT / '_site' / target.lstrip('/')).is_file(), f'Missing asset {href}'
     readings = rows('readings.yml')
-    assert len(readings) == 65
+    assert len(readings) == 66
     assert len({(r['section'], r['page'], r['title']) for r in readings}) == len(readings)
     for r in readings:
         assert all(r.get(k) for k in ('section', 'page', 'title', 'author', 'year', 'length', 'kind')), r
@@ -81,7 +81,7 @@ def check():
     groups = Counter(r['group'] for r in readings if r.get('group'))
     assert groups == {'Macro Implications': 6, 'Labor Markets': 21, 'Financial Sector': 10, 'Alignment and Governance': 3}, groups
     assert len([r for r in readings if not r['url']]) == 3
-    print(f'PASS: five ordered tabs, 17 ordered subsections, {len(docs)} built routes, all local links and assets, 65 readings, 40 grouped papers.')
+    print(f'PASS: five ordered tabs, 17 ordered subsections, {len(docs)} built routes, all local links and assets, 66 readings, 40 grouped papers.')
 
 
 if __name__ == '__main__':

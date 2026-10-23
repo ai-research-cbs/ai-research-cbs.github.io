@@ -63,3 +63,4 @@
 - {"section": "substitute", "page": "exposure", "title": "The Economist as Plumber", "author": "Esther Duflo", "year": 2017, "length": "paper", "kind": "Writing", "url": "https://www.aeaweb.org/articles?id=10.1257/aer.p20171153"}
 - {"section": "substitute", "page": "exposure", "title": "Priorities in Scientific Discovery: A Chapter in the Sociology of Science", "author": "Robert K. Merton", "year": 1957, "length": "paper", "kind": "Writing", "url": "https://www.jstor.org/stable/2089193"}
 - {"section": "infrastructure", "page": "data", "title": "Analytics for Finance and Accounting: Data Structures and Applied AI", "author": "Sean Cao, Wei Jiang, and Lijun Lei", "year": 2025, "length": "book", "kind": "Writing", "url": ""}
+- {"section": "infrastructure", "page": "data", "title": "Econvitals", "author": "Jason Furman", "year": 2026, "length": "tracker", "kind": "Writing", "url": "https://econvitals.org/"}
