@@ -8,9 +8,9 @@ permalink: /infrastructure/data/
 
 ## A Repository of Papers
 
-comet: about 2,400 paper summaries with full extracted text, searchable and linked.
+Summaries and full extracted text of the papers you read, searchable and linked.
 
-Extract and file each paper once; it is never re-read from scratch.
+Extract and file each paper once, so no agent has to read it again from scratch.
 
 ## A Data Manual
 

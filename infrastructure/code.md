@@ -8,7 +8,7 @@ permalink: /infrastructure/code/
 
 ## Multiple Agents Checking Each Other
 
-Claude Code and Codex as drafter and critic, coordinated through handoff files.
+One agent drafts and another critiques, for example Claude Code and Codex.
 
 ## The Joint Hypothesis Problem
 
